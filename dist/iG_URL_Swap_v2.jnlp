@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="iG_URL_Swap_v2.jnlp">
+  <information>
+    <title>iG_URL_Swap_v2</title>
+    <vendor>C.Sutton</vendor>
+    <description>Automation tool for changing the Instagram Web URL field to a desired URL.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="--module-path "C:\Program Files\Java\javafx-sdk-13.0.2\lib" --add-modules=javafx.controls,javafx.fxml "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="iG_URL_Swap_v2.jar" size="10700" download="eager" />
+    <jar href="lib\byte-buddy-1.8.15.jar" size="2987269" download="eager" />
+    <jar href="lib\client-combined-3.141.59-sources.jar" size="529743" download="eager" />
+    <jar href="lib\client-combined-3.141.59.jar" size="1527879" download="eager" />
+    <jar href="lib\commons-exec-1.3.jar" size="54423" download="eager" />
+    <jar href="lib\guava-25.0-jre.jar" size="2738171" download="eager" />
+    <jar href="lib\javafx.base.jar" size="744512" download="eager" />
+    <jar href="lib\javafx.controls.jar" size="2508818" download="eager" />
+    <jar href="lib\javafx.fxml.jar" size="125617" download="eager" />
+    <jar href="lib\javafx.graphics.jar" size="4289319" download="eager" />
+    <jar href="lib\okhttp-3.11.0.jar" size="413639" download="eager" />
+    <jar href="lib\okio-1.14.0.jar" size="85756" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="iGwebSwap.IG_URL_Swap_v2FX"  name="iG_URL_Swap_v2" />
+  <update check="always"/>
+</jnlp>
